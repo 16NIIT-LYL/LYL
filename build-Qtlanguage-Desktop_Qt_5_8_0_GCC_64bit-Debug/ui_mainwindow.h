@@ -71,7 +71,7 @@ public:
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setGeometry(QRect(140, 90, 101, 51));
-        pushButton->setStyleSheet(QStringLiteral("background-color: rgb(245, 121, 0);"));
+        pushButton->setStyleSheet(QStringLiteral("background-color: rgb(114, 159, 207);"));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
